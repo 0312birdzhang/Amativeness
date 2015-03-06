@@ -203,7 +203,7 @@ transition: .6s;
 /* 站点标题 */
 
 #description {
-    background: url(http://diygod.qiniudn.com/2961_1.jpg);
+    background: url("http://www.birdzhang.xyz/background.jpg");
     background-position-y: 10%;
     background-size: cover;
     height: 650px;

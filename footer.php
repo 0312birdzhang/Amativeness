@@ -21,8 +21,8 @@
 			}
 			show_date_time();
 		</SCRIPT>
-		<p>托管于<a href="http://technetcal.com/" target="_blank">TECHNETCAL</a>. <a href="http://www.qiniu.com/" target="_blank">七牛 </a><a href="https://www.upyun.com/" target="_blank">UPYUN</a>提供文件云存储服务. <a href="http://www.google.com/analytics/" target="_blank">Google Analytics </a><a href="http://tongji.baidu.com/" target="_blank">百度统计</a>提供网站统计服务.</p>
-		<p>&copy; 2015 <a href="<?php echo home_url(); ?>/"><?php bloginfo('name'); ?></a>. 由 <a href="http://wordpress.org" target="_blank">Wordpress</a> 强力驱动. Theme By <a href="https://github.com/DIYgod/Amativeness" target="_blank">Amativeness</a>. <a href="http://www.anotherhome.net/sitemap.html" target="_blank">站点地图</a>. 去你妈的备案</p>
+		<p>托管于<a href="http://sae.sina.com.cn/" target="_blank">SAE</a>.<a href="http://www.google.com/analytics/" target="_blank">Google Analytics </a><a href="http://tongji.baidu.com/" target="_blank">百度统计</a>提供网站统计服务.</p>
+		<p>&copy; 2015 <a href="<?php echo home_url(); ?>/"><?php bloginfo('name'); ?></a>. 由 <a href="http://wordpress.org" target="_blank">Wordpress</a> 强力驱动. Theme By <a href="https://github.com/DIYgod/Amativeness" target="_blank">Amativeness</a>. 去你妈的备案</p>
     	</div>
 </footer><!-- #colophon -->
 </div><!-- #page -->
@@ -61,11 +61,11 @@
 			<?php if(is_home()) echo 'var isindex=true;var title="";';else echo 'var isindex=false;var title="',  get_the_title(),'";'; ?>
 			<?php if((($display_name = wp_get_current_user()->display_name) != null)) echo 'var visitor="',$display_name,'";'; else if(isset($_COOKIE['comment_author_'.COOKIEHASH])) echo 'var visitor="',$_COOKIE['comment_author_'.COOKIEHASH],'";';else echo 'var visitor="游客";';echo "\n"; ?>
 		</script>
-		<script type="text/javascript" src="/wp-content/themes/Amativeness/js/spig.js"></script>
+		<script type="text/javascript" src="http://www.birdzhang.xyz/spig.js"></script>
 		<style>
 			.spig {display:block;width:140px;height:132px;position:absolute;bottom: 300px;left:160px;z-index:9999;}
 			#message{color :#191919;border: 1px solid #c4c4c4;background:#ddd;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;min-height:1em;padding:5px;top:-45px;position:absolute;text-align:center;width:auto !important;z-index:10000;-moz-box-shadow:0 0 15px #eeeeee;-webkit-box-shadow:0 0 15px #eeeeee;border-color:#eeeeee;box-shadow:0 0 15px #eeeeee;outline:none;}
-			.mumu{width:104px;height:132px;cursor: move;background:url(http://diygod.qiniudn.com/spig.png) no-repeat;}
+			.mumu{width:104px;height:132px;cursor: move;background:url(http://www.birdzhang.xyz/spig.png) no-repeat;}
 		</style>
 		<div id="spig" class="spig">
 		    <div id="message">加载中……</div>
